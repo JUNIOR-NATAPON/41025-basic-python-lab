@@ -1,0 +1,13 @@
+work = int(input())
+midterm = int(input())
+final = int(input())
+total = work + midterm + final
+if work > 30 or midterm > 30 or final > 40: print("error")
+elif total >= 80: print("A")
+elif total >= 75: print("B+")
+elif total >= 70: print("B")
+elif total >= 65: print("C+")
+elif total >= 60: print("C")
+elif total >= 55: print("D+")
+elif total >= 50: print("D")
+else: print("F")
