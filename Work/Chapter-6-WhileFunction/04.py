@@ -1,10 +1,11 @@
 def function(n):
     if n <= 0 and n >= 20:
         return "Invalid input"
+    sum = 1
     i = 1
     while i <= n:
-        n *= i
+        sum *= i
         i += 1 
-    print(n)
+    return sum
 n = int(input())
-function(n)
+print(function(n))
