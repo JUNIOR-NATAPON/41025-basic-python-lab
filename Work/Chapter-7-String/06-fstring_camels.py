@@ -1,0 +1,5 @@
+t = input()
+n = int(t[0])
+i = float(t[1:])
+g = str(t[1:])
+print("In ",n,"years I have spotted ", i , g)

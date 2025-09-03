@@ -2,7 +2,7 @@ import random
 def g(n):
     t = 0
     i = 0
-    while i != n:
+    while True:
         i = int(input())
         if i > n:
             print("มากไป")
